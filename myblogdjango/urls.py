@@ -8,8 +8,8 @@ urlpatterns = [
     #Core
     path('', include('AppCore.urls')),
     #Blog
-    path('AppBlog/', include('AppBlog.urls')),
+    path('Blogs/', include('AppBlog.urls')),
    #Perfil
-    path('AppPerfil/', include('AppPerfil.urls')),
+    path('perfil/', include('AppPerfil.urls')),
     
 ]
